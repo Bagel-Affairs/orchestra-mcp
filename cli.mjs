@@ -33103,7 +33103,7 @@ async function main() {
   const baseUrl = envOrArg("base-url", argv) ?? "http://localhost:3000";
   const apiKey = envOrArg("api-key", argv);
   if (!apiKey) {
-    console.error("Falta la API key: --api-key=okr_\u2026 o ORCHESTRA_API_KEY (se crean en Ajustes \u203A Claves de API)");
+    console.error("Falta la API key: --api-key=okr_\u2026 o ORCHESTRA_API_KEY (se crean en Ajustes \u203A Agentes (MCP))");
     process.exit(1);
   }
   const transport = envOrArg("transport", argv) ?? "stdio";
